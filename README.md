@@ -3,8 +3,9 @@
 
 ## Steps for Run Project
 
+- Enable ext-intl extension of PHP, or uncomment ext-intl line in php.ini
 - Create Database for the Project named "demo"
-- update configuration for database in .env file & Config/Database.php
+- update configuration for database in .env file;
 - run below commands in terminal
 - composer install
 - php spark migrate 
